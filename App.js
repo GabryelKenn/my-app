@@ -5,7 +5,7 @@ import MeuComponente from './components/MeuComponente';
 export default function App() {
   return (
     <View style={styles.container}>
-      <MeuComponente>
+      <MeuComponente></MeuComponente>
       <StatusBar style="auto" />
     </View>
   );

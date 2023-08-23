@@ -9,5 +9,4 @@ export default function MeuComponente(props) {
     return (
         <Text>O valor máximo é: {maxValue}</Text>
     );
-}
-
+    }
