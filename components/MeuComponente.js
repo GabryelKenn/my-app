@@ -8,5 +8,7 @@ export default function MeuComponente(props) {
 
     return (
         <Text>O valor máximo é: {maxValue}</Text>
+        <Text>o {min} é maior uq eo {max} </Text>
+         
     );
-    }
+}
