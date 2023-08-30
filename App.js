@@ -3,12 +3,14 @@ import { StyleSheet, Text, View } from 'react-native';
 import MeuComponente from './components/MeuComponente';
 import MeuComponente2 from './components/MeuComponente2';
 import NumeroAleatorio from './components/NumeroAleatorio';
+import DigiteSeuNome from './components/DigiteSeuNome';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <NumeroAleatorio min={1} max={100} />
-    </View>
+
+      <DigiteSeuNome style={styles.container} />
+
+
   );
 }
 
